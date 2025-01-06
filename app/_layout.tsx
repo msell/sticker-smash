@@ -1,5 +1,7 @@
+if (__DEV__) {
+  require('../ReactotronConfig')
+}
 import { Stack } from 'expo-router'
-
 export default function RootLayout() {
   return (
     <Stack>
